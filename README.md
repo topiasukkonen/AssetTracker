@@ -32,3 +32,4 @@ https://github.com/topiasukkonen/AssetTracker/blob/main/tests.md
 
 https://github.com/topiasukkonen/AssetTracker/blob/main/hours.md
 
+https://github.com/topiasukkonen/AssetTracker/blob/main/design.md
