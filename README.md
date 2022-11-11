@@ -25,6 +25,7 @@ https://github.com/topiasukkonen/AssetTracker/releases/tag/assettracker
  python3 index.py
 ```
 
+Insert crypto names or stock names as stock tickers to the input fields provided and press the corresponding button. Current prices will be shown in the terminal while historical price data is shown as a chart in a separate pop up window.
 
 Check also:
 
