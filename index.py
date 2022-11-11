@@ -8,12 +8,16 @@ import tkinter
 from PIL import ImageTk, Image
 import subprocess
 
+#intro
+
 print("[Intro music playing, please wait 9 seconds!]")
 audio_file = "intro.m4a"
 
 return_code = subprocess.call(["afplay", audio_file])
 
 print("Welcome to AssetTracker!")
+
+#user interface made with tkinter, firstly defining background picture and initial window size for instance
 
 root = tk.Tk()
 root.title("AssetTracker")
@@ -30,6 +34,8 @@ frame1 = Frame( root, bg = "#88cffa")
 frame1.pack(pady = 20)
 
 margin = 0.23
+
+#putting the entries and buttons in place
 
 entry = tk.Entry(root)
 
