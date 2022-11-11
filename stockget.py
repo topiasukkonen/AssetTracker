@@ -18,7 +18,7 @@ class Get1:
             db.execute("INSERT INTO stocks (name, price) VALUES (?, ?)",inserted)
             db.commit()
             #return data for testing purposes
-            return cg
+            return f"{lowered} is now trading at {round(cg,0)} USD"
         except:
             #if not available, print error message and return error message for testing purposes
             print("Sorry, that stock is not available.")

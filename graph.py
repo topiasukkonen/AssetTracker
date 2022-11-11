@@ -11,7 +11,7 @@ class Graph:
         if data==[]:
             print("Sorry, that chart is not available.")
             return "Sorry, that chart is not available."
-        ##create a chart of prices using matplotlib, return data for testing purposes
+        #create a chart of prices using matplotlib, return data for testing purposes
         plt.plot(data)
         plt.show()
         return data

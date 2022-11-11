@@ -19,8 +19,7 @@ class Get:
             db.execute("INSERT INTO crypto (name, price) VALUES (?, ?)",inserted)
             db.commit()
             #return data for testing purposes
-            #return f"{coi} is now trading at {data[coi]['usd']} USD"
-            return coi
+            return f"{coi} is now trading at {data[coi]['usd']} USD"
         except:
             #if coin is not available, print error message and return error message for testing purposes
             print("Sorry, that coin is not available.")
