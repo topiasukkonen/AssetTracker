@@ -8,6 +8,6 @@ Following picture shows the coverage of the unit tests, which ammounts to 100% e
 
 Unit tests are named informatively to reflect the exact part of the project thay are designed to test.
 
-I have tested Cryptotracker on MacOS.
+Tested on MacOS.
 
 Tests can be run using pytest in the root of the project.
