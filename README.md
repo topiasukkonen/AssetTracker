@@ -4,7 +4,7 @@ AssetTracker is a Python program that fetches crypto and stock data from two API
 
 # How to use?
  
- Download the latest release of cryptotracker from here:
+ Download the latest release:
  
 https://github.com/topiasukkonen/AssetTracker/releases/tag/assettracker
  
